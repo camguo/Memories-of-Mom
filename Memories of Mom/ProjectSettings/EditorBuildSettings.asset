@@ -6,6 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MazeScene1.unity
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 014186fcca5a38840b58c99c1204ae4e
+  - enabled: 1
+    path: Assets/Scenes/NewGameScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: edefbd98649218046bd7d4ce6e452326
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: ffb71ecec289df94fbbec70c5161e210, type: 2}
