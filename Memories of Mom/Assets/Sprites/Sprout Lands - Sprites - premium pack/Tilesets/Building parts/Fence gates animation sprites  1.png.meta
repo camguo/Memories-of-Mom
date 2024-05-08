@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 41c8a1dc8d925d44590cf4ffb571df90
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fence gates animation sprites _8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -29, y: 8}
+        - {x: -29, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: 8}
+      - - {x: 5, y: 8}
+        - {x: 5, y: -6}
+        - {x: 29, y: -6}
+        - {x: 29, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beaa5fcb0c6afa4f935b3610436c1c2
+      internalID: 1587521047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -29, y: 8}
+        - {x: -29, y: -6}
+        - {x: -9, y: -6}
+        - {x: -9, y: 8}
+      - - {x: 8, y: 8}
+        - {x: 8, y: -6}
+        - {x: 29, y: -6}
+        - {x: 29, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e15e3bbf6d774096c0522a1c04c7c
+      internalID: -959634452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -29, y: 8}
+        - {x: -29, y: -6}
+        - {x: -9, y: -6}
+        - {x: -9, y: 8}
+      - - {x: 8, y: 8}
+        - {x: 8, y: -6}
+        - {x: 29, y: -6}
+        - {x: 29, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426c19f9a2d670f4a8a38a93895d161c
+      internalID: 1644299236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 31}
+        - {x: -5, y: -32}
+        - {x: 5, y: -32}
+        - {x: 5, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31178f315f166f4f9f09804e032f8bb
+      internalID: 1976153135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 31}
+        - {x: -5, y: -32}
+        - {x: 5, y: -32}
+        - {x: 5, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8936c1424f1929143988de4ec401d494
+      internalID: -1289564465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 31}
+        - {x: -5, y: -32}
+        - {x: 8, y: -32}
+        - {x: 8, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81f97ffe9cdb254cacd31dceb93eeae
+      internalID: -1787636994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -8}
+        - {x: -11, y: -30}
+        - {x: -5, y: -30}
+        - {x: -5, y: -19}
+        - {x: 4, y: -19}
+        - {x: 4, y: -8}
+      - - {x: -11, y: 29}
+        - {x: -11, y: 6}
+        - {x: 4, y: 6}
+        - {x: 4, y: 17}
+        - {x: -5, y: 17}
+        - {x: -5, y: 29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be151f97afebda4faf3f15a33dfb865
+      internalID: -287161443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: -8}
+        - {x: -11, y: -30}
+        - {x: -5, y: -30}
+        - {x: -5, y: -19}
+        - {x: 4, y: -19}
+        - {x: 4, y: -8}
+      - - {x: -11, y: 29}
+        - {x: -11, y: 6}
+        - {x: 4, y: 6}
+        - {x: 4, y: 17}
+        - {x: -5, y: 17}
+        - {x: -5, y: 29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9531437aecdd61469ec142d88a00374
+      internalID: -159887899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17, y: 8}
+        - {x: -26, y: 7}
+        - {x: -29, y: 4}
+        - {x: -29, y: -5}
+        - {x: -26, y: -8}
+        - {x: 26, y: -8}
+        - {x: 29, y: -7}
+        - {x: 29, y: 4}
+        - {x: 28, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbc3a3ccbebc6c4d82658cf5cc536b9
+      internalID: 1096627445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22, y: 8}
+        - {x: -29, y: 6}
+        - {x: -29, y: -8}
+        - {x: 29, y: -8}
+        - {x: 29, y: 4}
+        - {x: 28, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c9590561db3454c8ce4a5f31089a94
+      internalID: -1348703979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fence gates animation sprites _0: 1096627445
+      Fence gates animation sprites _1: -511552615
+      Fence gates animation sprites _10: -681132877
+      Fence gates animation sprites _11: 523204554
+      Fence gates animation sprites _12: -959634452
+      Fence gates animation sprites _13: 131670092
+      Fence gates animation sprites _14: 1368817849
+      Fence gates animation sprites _15: 1409590038
+      Fence gates animation sprites _16: 1644299236
+      Fence gates animation sprites _17: -1594005595
+      Fence gates animation sprites _18: 1619437791
+      Fence gates animation sprites _19: 2058312431
+      Fence gates animation sprites _2: -1036270719
+      Fence gates animation sprites _20: 1976153135
+      Fence gates animation sprites _21: -1289564465
+      Fence gates animation sprites _22: -1787636994
+      Fence gates animation sprites _23: -287161443
+      Fence gates animation sprites _24: -159887899
+      Fence gates animation sprites _25: -1163967703
+      Fence gates animation sprites _26: 1288606311
+      Fence gates animation sprites _27: -1961409728
+      Fence gates animation sprites _28: 1391661844
+      Fence gates animation sprites _29: 1703018408
+      Fence gates animation sprites _3: -56413386
+      Fence gates animation sprites _30: -803672728
+      Fence gates animation sprites _31: -1959169822
+      Fence gates animation sprites _32: 57895819
+      Fence gates animation sprites _33: -15157490
+      Fence gates animation sprites _34: 130493336
+      Fence gates animation sprites _35: -653518552
+      Fence gates animation sprites _36: 1910493227
+      Fence gates animation sprites _37: 484768152
+      Fence gates animation sprites _38: -1714045263
+      Fence gates animation sprites _39: -961332705
+      Fence gates animation sprites _4: -1348703979
+      Fence gates animation sprites _40: 391769181
+      Fence gates animation sprites _41: 730375130
+      Fence gates animation sprites _42: -10455846
+      Fence gates animation sprites _43: -1286817510
+      Fence gates animation sprites _44: 275587282
+      Fence gates animation sprites _45: -773663831
+      Fence gates animation sprites _46: -893679649
+      Fence gates animation sprites _5: -932106484
+      Fence gates animation sprites _6: -892797340
+      Fence gates animation sprites _7: 568866675
+      Fence gates animation sprites _8: 1587521047
+      Fence gates animation sprites _9: 557061884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

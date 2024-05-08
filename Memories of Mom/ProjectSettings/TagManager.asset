@@ -41,3 +41,36 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Colliders
+    uniqueID: 4278770471
+    locked: 0
+  - name: Water
+    uniqueID: 1058160031
+    locked: 0
+  - name: Ground
+    uniqueID: 2032009569
+    locked: 0
+  - name: Floor
+    uniqueID: 642654665
+    locked: 0
+  - name: Walls
+    uniqueID: 3041797389
+    locked: 0
+  - name: Structures
+    uniqueID: 604199963
+    locked: 0
+  - name: Decor Behind
+    uniqueID: 2999169243
+    locked: 0
+  - name: Interactables
+    uniqueID: 1086776941
+    locked: 0
+  - name: Character
+    uniqueID: 1680472711
+    locked: 0
+  - name: Decor InFront
+    uniqueID: 1177526377
+    locked: 0
+  - name: UI
+    uniqueID: 1545273899
+    locked: 0

@@ -158,54 +158,18 @@
             "id": "2f8f4e24-84ad-454b-9f0e-363844657956",
             "actions": [
                 {
-                    "name": "NewGame",
+                    "name": "MenuToggle",
                     "type": "Button",
-                    "id": "d01f3c02-e9bc-4cf1-b434-85d3fb7166e4",
+                    "id": "b1ebe5dd-9ce2-4ef6-b7f3-a5acd4c78144",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "LoadGame",
+                    "name": "BagToggle",
                     "type": "Button",
-                    "id": "63bb3d67-fb30-4989-a47d-bc48c86e98b6",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Photos",
-                    "type": "Button",
-                    "id": "7d26dd2a-e964-4b47-a1e9-5dca5d91f9db",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Settings",
-                    "type": "Button",
-                    "id": "bd1bafc5-e283-4ebf-8781-84484c67f8b2",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Credits",
-                    "type": "Button",
-                    "id": "5443c6e7-e0ae-4fce-8edd-cc071f8e5d56",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Quit",
-                    "type": "Button",
-                    "id": "28a2b767-5206-425a-99a9-85e736bfd3d9",
+                    "id": "df442e55-3431-48f3-9d2f-66411e088af0",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -215,67 +179,23 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "0c8abcc7-b494-4c0b-8b0e-887f098357e1",
-                    "path": "",
+                    "id": "bb8d4195-b351-4ff3-afe0-fe1940ffd522",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "NewGame",
+                    "action": "MenuToggle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "a923685e-542f-47a4-b35c-82c3dd7ca139",
-                    "path": "",
+                    "id": "1c888a39-fa3c-4682-93b5-344292aebb54",
+                    "path": "<Keyboard>/b",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "LoadGame",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b98ba986-b3da-431b-b7f1-6f5aa39ffcd8",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Photos",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d98a379b-2eb3-4202-bb39-903834d36c97",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Settings",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2251eb09-63e5-4acb-8891-528e52452778",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Credits",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "de280996-db90-4db8-8428-02c9936fb16c",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Quit",
+                    "action": "BagToggle",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

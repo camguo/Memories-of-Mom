@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8938776345797320294}
   - component: {fileID: 8926200598393120382}
   - component: {fileID: 3333658090536331550}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Falling Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
