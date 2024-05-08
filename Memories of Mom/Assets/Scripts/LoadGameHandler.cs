@@ -31,6 +31,10 @@ public class LoadGameHandler : MonoBehaviour
         {
             s1cookingDone.text = "Yes";
         }
+        else
+        {
+            s1cookingDone.text = "No";
+        }
 
         s2XPos.text = (PlayerPrefs.GetFloat("xPos" + 2)).ToString("#.##");
         s2YPos.text = (PlayerPrefs.GetFloat("yPos" + 2)).ToString("#.##");
@@ -39,6 +43,10 @@ public class LoadGameHandler : MonoBehaviour
         if (PlayerPrefs.GetInt("cookingDone" + 2) == 1)
         {
             s2cookingDone.text = "Yes";
+        }
+        else
+        {
+            s2cookingDone.text = "No";
         }
     }
 
@@ -64,6 +72,12 @@ public class LoadGameHandler : MonoBehaviour
 
     void loadSave()
     {
+        if (PlayerPrefs.GetInt("Ginger" + 1) + PlayerPrefs.GetInt("Pork" + 1) + PlayerPrefs.GetInt("Rice" + 1) + PlayerPrefs.GetInt("Seasoning" + 1) == 4 ||
+            PlayerPrefs.GetInt("Ginger" + 2) + PlayerPrefs.GetInt("Pork" + 2) + PlayerPrefs.GetInt("Rice" + 2) + PlayerPrefs.GetInt("Seasoning" + 2) == 4)
+            {
+                SceneManager.LoadScene("CookingScene");
+            }
+
         saveslot = PlayerPrefs.GetInt("saveslot");
 
         if (playerSO != null)

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 206629784187045331}
   - component: {fileID: 3196140447801176925}
   - component: {fileID: 6457015152860408175}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: RedFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4804,9 +4804,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1545273899
-  m_SortingLayer: 11
-  m_SortingOrder: 10
+  m_SortingLayerID: 904466257
+  m_SortingLayer: 12
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 3
@@ -4848,7 +4848,7 @@ GameObject:
   - component: {fileID: 3040491344283068558}
   - component: {fileID: 3121320151522134086}
   - component: {fileID: 5250296579015392614}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: YellowFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9641,9 +9641,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1545273899
-  m_SortingLayer: 11
-  m_SortingOrder: 10
+  m_SortingLayerID: 904466257
+  m_SortingLayer: 12
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 3
@@ -9685,7 +9685,7 @@ GameObject:
   - component: {fileID: 5455511889580218271}
   - component: {fileID: 8859138977168334336}
   - component: {fileID: 2361650965404125986}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: CartoonFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14472,9 +14472,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1545273899
-  m_SortingLayer: 11
-  m_SortingOrder: 10
+  m_SortingLayerID: 904466257
+  m_SortingLayer: 12
+  m_SortingOrder: 0
   m_RenderMode: 3
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -14516,7 +14516,7 @@ GameObject:
   - component: {fileID: 6543128210395058711}
   - component: {fileID: 1807110474928380884}
   - component: {fileID: 3703129905615940246}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: OrangeFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19309,9 +19309,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1545273899
-  m_SortingLayer: 11
-  m_SortingOrder: 10
+  m_SortingLayerID: 904466257
+  m_SortingLayer: 12
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 3

@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Interactables
+  - Effects
   - 
   - 
   - 
@@ -62,9 +62,6 @@ TagManager:
   - name: Decor Behind
     uniqueID: 2999169243
     locked: 0
-  - name: Interactables
-    uniqueID: 1086776941
-    locked: 0
   - name: Character
     uniqueID: 1680472711
     locked: 0
@@ -73,4 +70,10 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 1545273899
+    locked: 0
+  - name: Interactables
+    uniqueID: 1086776941
+    locked: 0
+  - name: Effects
+    uniqueID: 904466257
     locked: 0

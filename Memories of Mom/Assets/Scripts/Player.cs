@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     [SerializeField] public float moveSpeed = 3f;
     public int saveslot;
 
+    [SerializeField] private List<AnimationStateChanger> animationStateChangers;
+
     void OnMove(InputValue value)
     {
         moveVal = value.Get<Vector2>();
@@ -20,12 +22,12 @@ public class Player : MonoBehaviour
 
     void OnStartRun()
     {
-        moveSpeed = 5f;
+        moveSpeed = 4f;
     }
 
     void OnEndRun()
     {
-        moveSpeed = 3f;
+        moveSpeed = 2f;
     }
 
     // Start is called before the first frame update
@@ -60,9 +62,73 @@ public class Player : MonoBehaviour
         // {
         //     transform.Translate(new Vector3(moveVal.x, moveVal.y/2, 0) * moveSpeed * Time.deltaTime);
         // }
+
+        
+        if (moveVal.x > 0 && Mathf.Abs(moveVal.x) > Mathf.Abs(moveVal.y))
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkRightAni", moveSpeed);
+            }
+        }
+        else if (moveVal.x < 0 && Mathf.Abs(moveVal.x) > Mathf.Abs(moveVal.y))
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkLeftAni", moveSpeed);
+            }
+        }
+        else if (moveVal.y > 0 && Mathf.Abs(moveVal.y) > Mathf.Abs(moveVal.x))
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkUpAni", moveSpeed);
+            }
+        }
+        else if (moveVal.y < 0 && Mathf.Abs(moveVal.y) > Mathf.Abs(moveVal.x))
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkDownAni", moveSpeed);
+            }
+        }
+        else if (moveVal.x > 0 && moveVal.y > 0)
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkTRAni", moveSpeed);
+            }
+        }
+        else if (moveVal.x > 0 && moveVal.y < 0)
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkBRAni", moveSpeed);
+            }
+        }
+        else if (moveVal.x < 0 && moveVal.y > 0)
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkTLAni", moveSpeed);
+            }
+        }
+        else if (moveVal.x < 0 && moveVal.y < 0)
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("WalkBLAni", moveSpeed);
+            }
+        }
+        else
+        {
+            foreach (AnimationStateChanger asc in animationStateChangers)
+            {
+                asc.ChangeAnimationState("PlayerIdleAnimation", 1);
+            }
+        }
         
         transform.Translate(new Vector3(moveVal.x, moveVal.y, 0) * moveSpeed * Time.deltaTime);
-
         
         if (playerSO != null)
         {
@@ -71,39 +137,5 @@ public class Player : MonoBehaviour
         }
     }
 
-    // public void PlayAudio()
-    // {
-    //     GetComponent<AudioSource>().Play();
-    // }
-
-    // void OnTriggerEnter2D(Collider2D other)
-    // {
-    //     if (other.GetComponent<Ginger>() != null)
-    //     {
-    //         GetComponent<AudioSource>().Play();
-    //         PlayerPrefs.SetInt("gotGinger" + saveslot, 1);
-    //         Destroy(other.gameObject);
-    //     }
-
-    //     if (other.GetComponent<Pork>() != null)
-    //     {
-    //         GetComponent<AudioSource>().Play();
-    //         PlayerPrefs.SetInt("gotPork" + saveslot, 1);
-    //         Destroy(other.gameObject);
-    //     }
-
-    //     if (other.GetComponent<Rice>() != null)
-    //     {
-    //         GetComponent<AudioSource>().Play();
-    //         PlayerPrefs.SetInt("gotRice" + saveslot, 1);
-    //         Destroy(other.gameObject);
-    //     }
-
-    //     if (other.GetComponent<Seasoning>() != null)
-    //     {
-    //         GetComponent<AudioSource>().Play();
-    //         PlayerPrefs.SetInt("gotSeasoning" + saveslot, 1);
-    //         Destroy(other.gameObject);
-    //     }
-    // }
+    
 }

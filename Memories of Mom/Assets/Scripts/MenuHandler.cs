@@ -22,6 +22,11 @@ public class MenuHandler : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
+    public void EnterCooking()
+    {
+        SceneManager.LoadScene("CookingScene");
+    }
+
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenuScene");
