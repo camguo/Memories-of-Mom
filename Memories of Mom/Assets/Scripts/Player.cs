@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            homePosition = new Vector3(0f, -2f, 0f);
+            homePosition = new Vector3(0f, 0f, 0f);
         }
         // homePosition = new Vector3(PlayerPrefs.GetFloat("xPos" + saveslot), PlayerPrefs.GetFloat("yPos" + saveslot), 0f);
         transform.position = homePosition;

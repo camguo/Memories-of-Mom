@@ -23,6 +23,12 @@ public class LoadGameHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         // saveslot = PlayerPrefs.GetInt("saveslot");
         s1XPos.text = (PlayerPrefs.GetFloat("xPos" + 1)).ToString("#.##");
         s1YPos.text = (PlayerPrefs.GetFloat("yPos" + 1)).ToString("#.##");
@@ -50,15 +56,14 @@ public class LoadGameHandler : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void selectSave1()
     {
         PlayerPrefs.SetInt("saveslot", 1);
+
+        if (PlayerPrefs.GetInt("Ginger" + 1) + PlayerPrefs.GetInt("Pork" + 1) + PlayerPrefs.GetInt("Rice" + 1) + PlayerPrefs.GetInt("Seasoning" + 1) == 4)
+            {
+                SceneManager.LoadScene("CookingScene");
+            }
         
         loadSave();
     }
@@ -66,17 +71,18 @@ public class LoadGameHandler : MonoBehaviour
     public void selectSave2()
     {
         PlayerPrefs.SetInt("saveslot", 2);
+
+        if (PlayerPrefs.GetInt("Ginger" + 2) + PlayerPrefs.GetInt("Pork" + 2) + PlayerPrefs.GetInt("Rice" + 2) + PlayerPrefs.GetInt("Seasoning" + 2) == 4)
+            {
+                SceneManager.LoadScene("CookingScene");
+            }
         
         loadSave();
     }
 
     void loadSave()
     {
-        if (PlayerPrefs.GetInt("Ginger" + 1) + PlayerPrefs.GetInt("Pork" + 1) + PlayerPrefs.GetInt("Rice" + 1) + PlayerPrefs.GetInt("Seasoning" + 1) == 4 ||
-            PlayerPrefs.GetInt("Ginger" + 2) + PlayerPrefs.GetInt("Pork" + 2) + PlayerPrefs.GetInt("Rice" + 2) + PlayerPrefs.GetInt("Seasoning" + 2) == 4)
-            {
-                SceneManager.LoadScene("CookingScene");
-            }
+        
 
         saveslot = PlayerPrefs.GetInt("saveslot");
 

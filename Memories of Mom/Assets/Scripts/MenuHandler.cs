@@ -34,7 +34,7 @@ public class MenuHandler : MonoBehaviour
 
     public void Quit()
     {
-        Debug.Log("shutting down...");
+        PlayerPrefs.Save();
         Application.Quit();
     }
 }

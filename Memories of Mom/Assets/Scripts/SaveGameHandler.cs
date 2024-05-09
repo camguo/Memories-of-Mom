@@ -10,7 +10,7 @@ public class SaveGameHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        saveslot = PlayerPrefs.GetInt("saveslot");
+        // saveslot = PlayerPrefs.GetInt("saveslot");
     }
 
     // Update is called once per frame
@@ -36,5 +36,7 @@ public class SaveGameHandler : MonoBehaviour
         }
 
         Debug.Log(PlayerPrefs.GetFloat("xPos" + saveslot) + ", " + PlayerPrefs.GetFloat("yPos" + saveslot));
+
+        PlayerPrefs.Save();
     }
 }

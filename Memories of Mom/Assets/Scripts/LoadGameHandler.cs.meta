@@ -3,7 +3,16 @@ guid: 9838ee93d9234064a8853b58e5fe3a5f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - playerSO: {fileID: 11400000, guid: 00fbf37e5d3fe624aa45e372ec6783ca, type: 2}
+  - s1XPos: {instanceID: 0}
+  - s1YPos: {instanceID: 0}
+  - s1ingredientsCollected: {instanceID: 0}
+  - s1cookingDone: {instanceID: 0}
+  - s2XPos: {instanceID: 0}
+  - s2YPos: {instanceID: 0}
+  - s2ingredientsCollected: {instanceID: 0}
+  - s2cookingDone: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
